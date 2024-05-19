@@ -1,0 +1,342 @@
+ #title{
+     
+    /* background-color: ; */
+     background: linear-gradient(300deg, #A3A7DE ,  #004aad , #C0A975);
+     background-size: 180% 180%;
+    animation: gradient-animation 4s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.container-fluif {
+    padding: 3% 15% 14%;
+
+} 
+
+.devb {
+    font-size: 1.5rem;
+}
+
+.bio {
+    font-size: 1rem;
+    color: black;
+    
+}
+
+#vColor{     
+    font-size: 1rem;
+    line-height: 1.2;  
+    font-family: 'Montserrat', sans-serif; 
+    color: black;
+}
+
+h1{     
+    font-size: 2.5rem;
+    line-height: 1.2;  
+    font-family: 'Montserrat', sans-serif; 
+    color: white;  
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif; 
+    size: 3rem;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);    
+}
+
+#btata{
+    font-style:'Montserrat', sans-serif; 
+    text-align: center;
+    color: #C0A975;
+    }
+
+.about {
+    padding-top: 5rem;
+}    
+
+.mission{
+    padding-bottom: 4rem;
+    font-family: 'Montserrat', sans-serif; 
+    size: 2rem;
+    /* line-height: 1.5; */
+    color: rgb(0, 0, 0);    
+}
+
+.AI{
+    width: 120%;
+    right: 100%; 
+}
+
+h3{
+  
+    font-family: 'Montserrat', sans-serif;
+    size: 1rem;
+}
+ 
+
+
+p{
+    color: #8F8F8F;
+}
+
+.Waves {
+    width: 90%;
+    right: 90%; 
+}
+
+/* navebar */
+
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 19px;
+}
+
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+     /* Features section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #F1F1E6; 
+    position: relative;
+    z-index: 1;
+}
+    
+.feture-box {
+    text-align: center;
+    padding: 6%;
+}
+
+#obje {
+    background-color: #F1F1E6;
+}
+
+.icone{
+     color:#A3A7DE;/* #ef8172; */
+    padding-bottom: 1rem;
+    size: 3rem;
+}
+
+.icone:hover{
+     color: #1f67ae;/* #ff4c68; */
+}
+
+
+
+     /* testimoials section */
+
+#carousel-control-prev{
+    
+}     
+
+     #testimonials-Controsl{
+        text-align: center;
+        /* bottom-color: #0000; */
+    }     
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: right;
+    background-color :#F1F1E6;  
+}   
+
+
+.testimonial-image {
+    width: 40%;
+    /* border-radius: 100%; */
+    margin: 30px;
+
+}
+
+em {
+    color: white;
+}
+
+
+#press {
+    background-color: #F1F1E6;
+    text-align: center;
+}
+
+
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+
+
+.carousel-item {
+    padding: 7% 15%;
+} 
+
+
+#vision {
+
+    background-color: #F1F1E6;
+    font-size: 2.5rem;
+    line-height: 1.2;  
+    font-family: 'Montserrat', sans-serif; 
+    color: black;
+
+}
+
+
+#vColor {
+    text-decoration-color: black;
+}
+
+.VISION {
+    
+
+}
+
+
+  
+#vision {
+    background-color: #F1F1E6   ; 
+    padding: 100px;
+    text-align: center;
+    text-emphasis-color: black;
+    font-size: 1rem;
+} 
+
+
+#picCOM {
+    background-color: #F1F1E6   ;
+}
+
+
+.lacb{
+    text-align: center;
+    color: black ;
+    font-size: 1rem;
+}
+
+.nameCOM {
+    text-align: center;
+    color: black ;
+    font-size: 2rem;
+}
+
+
+
+.section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.iconR {
+    font-size: 24px;
+    margin-right: 10px;
+}  
+
+
+#TEAM{
+    background-color: #F1F1E6   ;
+    margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.saar {
+    padding: 3% 2%;
+}
+
+
+ .testimonial-text {
+    color: white;
+ }
+
+
+ .card {
+    /* background-color: #A3A7DE; */
+    background-color: #F1F1E6 ;
+    
+ }
+ 
+    
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+
+
+    .dog {
+        position: static;
+        rotate:0deg;        
+    }
+} 
+
+
+.final{
+    background-color: #F1F1E6;/* #ff4c68;*/
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+
+.title-final {
+    background-color: #F1F1E6;
+    font-size: 3.0rem;
+    line-height: 1.2;  
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+}
+
+
+#footer {
+    background: linear-gradient(300deg, #004aad, #A3A7DE);
+    background-size: 180% 180%;
+   animation: gradient-animation 7s ease infinite;
+    text-align: center;
+    padding: 5% 9%;
+}
+
+
+.social {
+    padding: 0.8rem;
+}
+
+
+.haaayyy{
+    padding:  7% 15%;
+}
+
+
+
+
+
+  .circle img {
+    width: 90%;
+  }
+ 
